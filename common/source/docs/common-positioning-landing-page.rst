@@ -17,11 +17,16 @@ positioning technologies:
 
    Zubax GNSS: GPS, Compass andBarometer
 
+.. figure:: ../../../images/Reach.jpg
+   :target: ../_images/Reach.jpg
+
+   Reach RTK Receiver
 
 .. toctree::
     :maxdepth: 1
 
     3DR UBlox GPS + Compass <common-installing-3dr-ublox-gps-compass-module>
     Zubax GNSS: GPS, Compass, Barometer <common-zubax-gnss-positioning-module-gps-compass-and-barometer>
+    Emlid Reach RTK Receiver <common-reach-rtk-receiver>
     GPS – How it Works <common-gps-how-it-works>
 
