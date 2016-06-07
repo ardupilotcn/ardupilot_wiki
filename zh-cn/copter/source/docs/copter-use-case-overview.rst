@@ -39,21 +39,17 @@
 图像和视频拍摄
 ===========================
 
-Copter allows you to easily get to locations and take pictures/video
-that would otherwise be difficult (or impossible) to reach. For this
-reason, photography applications are currently the most highly developed
-use-case.
+直升机可以让你轻松的获取位置信息，但想要拍图片或者视频是非常难得，甚至
+是不可能的。因此，拍摄方面的应用是非常高端的用例。
 
-Copter provides a stable platform for photography, with additional
-stability and independent control of camera position (relative to the
-vehicle) provided by brushless camera gimbals. Copter supports
-camera-friendly flight modes like :ref:`Follow Me <ac2_followme>` and allows you to
-control/maintain the camera target at a specific region of interest.
+直升机为拍摄提供了稳定的平台，附加稳定的独立摄像头位置控制（与载具相关）
+的无刷摄像头云台。直升机支持一些摄像头友好的飞行模式如
+:ref:`跟随模式 <ac2_followme>` 可以让你控制/维护摄像头指向你感兴趣的特定
+区域。
 
-Advanced systems like `3DR Solo <https://3dr.com/solo-drone/>`__
-implement even more advanced vehicle/camera control ("smart shots")
-using `DroneKit-Python <http://python.dronekit.io/>`__ running on a
-Companion Computer.
+高级系统如 `3DR Solo <https://3dr.com/solo-drone/>`__
+使用运行在单独系统上的 `DroneKit-Python <http://python.dronekit.io/>`__
+提供了更加高级的载具/摄像头控制("smart shots")。
 
 First Person View (FPV)
 =======================
