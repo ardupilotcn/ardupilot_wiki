@@ -1,49 +1,42 @@
 .. _copter-use-case-overview:
 
 ========================
-Copter Use-Case Overview
+直升机用例概述
 ========================
 
-This article provides an overview of some of the main use cases for
-Copter.
+本文对直升机的主要用例进行概要描述。T
 
-Overview
+概述
 ========
 
-The Copter autopilot provides a stable flying platform that enables
-precise manual and automated control over vehicle position, speed,
-orientation and actions. The supported control behaviours are made
-available using autopilot :ref:`flight/control modes <flight-modes>`:
+直升机自动驾驶仪提供了一个稳定的飞行平台，可以精确的手动或者自动控制
+载具的位置、速度、方向和动作。自动驾驶仪支持的控制行为有
+:ref:`飞行/控制模式 <flight-modes>`:
 
--  Manual flight modes like
-   :ref:`Stabilize <stabilize-mode>`,
-   :ref:`Alt Hold <altholdmode>` and
-   :ref:`Loiter <loiter-mode>` provide
-   different types of stabilisation and make vehicles easier to fly and
-   position. Other manual modes like :ref:`Follow Me <ac2_followme>` and :ref:`RTL (Return-to-Launch) <rtl-mode>`
-   automate tasks that would otherwise require complex manual
-   adjustments.
--  :ref:`AUTO Mode <auto-mode>` allows
-   you to run complex missions that you can define using a :ref:`ground control station <common-choosing-a-ground-station>`.
--  A companion computer on the vehicle can communicate with/control
-   Copter (for example, using
-   `DroneKit-Python <http://python.dronekit.io/>`__) and perform
-   computationally intensive low-latency tasks like computer-vision.
+-  手动飞行模式如：
+   :ref:`稳定模式 <stabilize-mode>`,
+   :ref:`高度保持模式 <altholdmode>` 和
+   :ref:`悬停模式 <loiter-mode>` 提供了不同类型的稳定方式。使得载具比
+   较容易起飞和定位。其他手动模式如 :ref:`跟随模式 <ac2_followme>` 和
+   :ref:`回到出发点模式 (Return-to-Launch) <rtl-mode>`
+   可以自动执行任务，不需要复杂的手动调整。
+-  :ref:`自动模式 <auto-mode>` 允许你通过
+   :ref:`地面控制站 <common-choosing-a-ground-station>` 定制复杂的任务。
+-  载具上的计算机可以与直升机交互并控制直升机（例如，使用
+   `DroneKit-Python <http://python.dronekit.io/>`__) 还可以执行低延迟的
+   计算密集型任务，如计算机视觉。
 
-This stability and precision, and the flexibility in terms of manual and
-automated control, make Copter the ideal platform for many UAV
-applications.
+手动和自动控制的稳定性、精确性和灵活性，使得直升机成为许多无人机应用的理
+想平台。
 
-This article provides an overview of some of the main use cases, with
-special emphasis on those requiring photographic/video inspection or
-payload delivery in difficult-to-reach places.
+本文对一些主要应用进行概述，特别强调图像/视频检查，或者难以到达的地方的有效载荷交付的需求。
 
 .. tip::
 
-   Additional use cases and information are covered in the section
-   :ref:`Use Cases and Applications <common-use-cases-and-applications>`.
+   更多的应用以及信息参看本段
+   :ref:`用例和应用 <common-use-cases-and-applications>`.
 
-Still and Video Photography
+图像和视频拍摄
 ===========================
 
 Copter allows you to easily get to locations and take pictures/video
