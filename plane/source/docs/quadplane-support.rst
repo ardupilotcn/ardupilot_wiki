@@ -1,4 +1,4 @@
-.. _quadplane-landing-page:
+.. _quadplane-support:
 
 =================
 QuadPlane Support
@@ -16,9 +16,11 @@ multicopter aircraft, also known as a "QuadPlane".
     Overview <quadplane-overview>
     Building a QuadPlane <quadplane-building>
     Frame Setup <quadplane-frame-setup>
+    ESC Calibration <quadplane-esc-calibration>
     Parameter Setup <quadplane-parameters>
     Flight Modes <quadplane-flight-modes>
     Flying a QuadPlane <quadplane-flying>
+    Weathervaning <quadplane-weathervaning>
     AUTO Missions <quadplane-auto-mode>
     Simulation <quadplane-simulation>
     

@@ -91,3 +91,4 @@ a Pixhawk) you would use these settings in the advanced parameter list:
 -  RC10_FUNCTION = 34
 -  RC11_FUNCTION = 35
 -  RC12_FUNCTION = 36
+
